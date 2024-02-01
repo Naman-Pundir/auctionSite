@@ -34,7 +34,7 @@ const Sellerbidlist = () => {
                 {
                     courses.map((courseObj,index) => {
                         return(
-                            <div className='services-1' onClick={() => clicked(courseObj._id)}>
+                            <div className='services-1'>
                                 <h2>{courseObj.item_name}</h2>
                                 <br></br>
                                 <p>{courseObj.item_info}</p>
